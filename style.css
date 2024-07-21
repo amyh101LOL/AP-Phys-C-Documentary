@@ -78,17 +78,21 @@ p {
 
 img {
     max-width: 10%;
-    padding-left: 1%;
+    margin-left: 1%;
+    border-radius: 50%;
 }
 
-.intros p {
+.intro p {
     font-family: "Grandstander", cursive;
     background-color: rgb(245, 240, 222);
     color: rgb(65, 87, 119);
 }
 
-.intros img {
-    padding-left: 10%;
+.intro img {
+    margin-left: 10%;
+    padding-left: 0%;
+    border-radius: 40%;
+    border: 10px solid rgb(142, 189, 233);
 }
 
 a {
@@ -145,6 +149,5 @@ a:hover {
 
 .talking {
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
 }
